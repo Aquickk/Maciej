@@ -35,7 +35,8 @@ export default function Contact() {
             {/* PANEL TELEFON */}
             <div className="bg-white border border-black/10 rounded-xl p-5 shadow-sm">
               <h4 className="text-lg font-semibold text-brand-gray-dark">Telefon</h4>
-              <p className="text-brand-gray mt-1">015252803782</p>
+              <p className="text-brand-gray mt-1">0152 52 80 3782</p>
+              <p className="text-brand-gray mt-1">0152 59 59 2836</p>
             </div>
 
             {/* PANEL EMAIL */}
@@ -50,72 +51,18 @@ export default function Contact() {
             </div>
           </div>
         </div>
-
-        {/* PRAWA KOLUMNA — FORMULARZ */}
-        <form className="bg-white rounded-3xl shadow-lg p-8 space-y-6">
-
-          {/* Imię i nazwisko */}
-          <div>
-            <label className="block text-brand-gray-dark font-medium mb-1">
-              Name
-            </label>
-            <input
-              type="text"
-              className="w-full border border-black/20 rounded-lg px-4 py-3 focus:outline-none focus:border-blue-600"
-              placeholder="Max Mustermann"
-              required
-            />
-          </div>
-
-          {/* Email */}
-          <div>
-            <label className="block text-brand-gray-dark font-medium mb-1">
-              E‑Mail Adresse
-            </label>
-            <input
-              type="email"
-              className="w-full border border-black/20 rounded-lg px-4 py-3 focus:outline-none focus:border-blue-600"
-              placeholder="email@beispiel.de"
-              required
-            />
-          </div>
-
-          {/* Telefon opcjonalnie */}
-          <div>
-            <label className="block text-brand-gray-dark font-medium mb-1">
-              Telefonnummer (optional)
-            </label>
-            <input
-              type="text"
-              className="w-full border border-black/20 rounded-lg px-4 py-3 focus:outline-none focus:border-blue-600"
-              placeholder="..."
-            />
-          </div>
-
-          {/* Wiadomość */}
-          <div>
-            <label className="block text-brand-gray-dark font-medium mb-1">
-              Nachricht
-            </label>
-            <textarea
-              className="w-full border border-black/20 rounded-lg px-4 py-3 h-32 resize-none focus:outline-none focus:border-blue-600"
-              placeholder="Ihre Nachricht..."
-              required
-            ></textarea>
-          </div>
-
-          {/* PRZYCISK */}
-          <button
-            type="submit"
-            className="
-              w-full bg-blue-600 text-white py-3 rounded-lg font-medium
-              transition hover:bg-white hover:text-blue-600 hover:border-blue-600 border border-blue-600
-            "
-          >
-            Nachricht senden
-          </button>
-
-        </form>
+          {/* MAPA GOOGLE */}
+        <div className="w-full h-[400px] md:h-full rounded-xl overflow-hidden shadow-md">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.0178025752907!2d10.40265!3d48.62239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f0f1c7e0e9b4f%3A0x7b6d0e6f0f0e0e0!2sAuf%20der%20Schanz%205%2C%2089437%20Haunsheim!5e0!3m2!1spl!2spl!4v1700000000000"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </section>
   );

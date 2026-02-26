@@ -41,7 +41,7 @@ export default function About() {
           src={aboutImg}
           alt="Über uns"
           className="
-            w-[55%] mx-auto h-auto rounded-3xl shadow-lg object-cover
+            w-[55%] mx-auto h-auto shadow-lg object-cover
           "
         />
 
@@ -58,7 +58,7 @@ export default function About() {
 
           {/* BADGE — LEKKO WYSTAJE */}
           <div className="absolute -bottom-3 -right-3 bg-blue-600 text-white px-5 py-2 rounded-lg shadow-md">
-            <span className="text-2xl font-bold">15+</span>
+            <span className="text-2xl font-bold">10+</span>
             <span className="ml-2 tracking-wide">JAHRE ERFAHRUNG</span>
           </div>
         </div>

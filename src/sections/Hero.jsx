@@ -29,6 +29,9 @@ export default function Hero() {
     >
       {/* LEWA STRONA */}
       <div>
+        <h3 className="h3-with-line text-blue-600 font-semibold tracking-wide">
+          HOME
+        </h3>
         <h1 className="font-heading text-4xl md:text-5xl text-brand-gray-dark leading-tight">
           PROFESSIONELLE FENSTER &{" "}
           <span className="text-blue-600">ROLLLADEN MONTAGE</span>
