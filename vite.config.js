@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/maciej/',   // ← to jest wymagane dla GH Pages
+  base: '/Maciej/',   // ← to jest wymagane dla GH Pages
 })
